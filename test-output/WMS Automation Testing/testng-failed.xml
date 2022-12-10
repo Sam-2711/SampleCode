@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [WMS Automation Testing]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="WMS(failed)">
+    <classes>
+      <class name="vTEST.WMS.LocationTest">
+        <methods>
+          <include name="loginWMS"/>
+          <include name="beforeMethod"/>
+          <include name="TearDown"/>
+          <include name="Extentsetup"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="addNewLocation"/>
+          <include name="CloseExrent"/>
+        </methods>
+      </class> <!-- vTEST.WMS.LocationTest -->
+    </classes>
+  </test> <!-- WMS(failed) -->
+</suite> <!-- Failed suite [WMS Automation Testing] -->

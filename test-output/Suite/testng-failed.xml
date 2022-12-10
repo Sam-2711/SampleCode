@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="vTEST.WMS.RR_Test">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="TearDown"/>
+          <include name="CloseExtent"/>
+          <include name="Extentsetup"/>
+          <include name="selectReceive"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- vTEST.WMS.RR_Test -->
+      <class name="vTEST.WMS.LocationTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="TearDown"/>
+          <include name="CloseExtent"/>
+          <include name="Extentsetup"/>
+          <include name="addNewLocation"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- vTEST.WMS.LocationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
